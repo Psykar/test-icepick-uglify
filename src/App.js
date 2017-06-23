@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import icepick from 'icepick'
 
 class App extends Component {
   render() {
+    const test = icepick.merge({}, {test: 'hi'})
     return (
       <div className="App">
         <div className="App-header">
